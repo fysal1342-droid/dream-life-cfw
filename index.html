@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dream Life CFW - مجتمع FiveM رول بلاي">
+<title>Dream Life CFW</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><span>DL</span> Dream Life <b>CFW</b></a>
+  <button class="menu" aria-label="القائمة">☰</button>
+  <nav>
+    <a href="#home">الرئيسية</a><a href="#about">عن المدينة</a><a href="#rules">القوانين</a>
+    <a href="#jobs">التقديم</a><a href="#store">المتجر</a><a href="#servers">السيرفرات</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="glow"></div>
+  <div class="hero-content">
+    <p class="eyebrow">DREAM LIFE CFW</p>
+    <h1>اصنع <span>حياتك</span><br>بنفسك.</h1>
+    <p class="lead">مجتمع رول بلاي عربي مصمم لتعيش تجربة مختلفة. اختر طريقك، ابنِ قصتك، واترك بصمتك في Dream Life.</p>
+    <div class="actions"><a class="btn primary" href="#about">اكتشف المدينة</a><a class="btn ghost" href="#rules">اقرأ القوانين</a></div>
+    <div class="stats"><div><strong>24/7</strong><small>تجربة مستمرة</small></div><div><strong>RP</strong><small>رول بلاي متكامل</small></div><div><strong>CFW</strong><small>مجتمع عربي</small></div></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head"><span>01</span><div><p class="eyebrow">ABOUT US</p><h2>مدينة، <em>وقصة</em> جديدة.</h2></div></div>
+  <div class="about-grid"><article class="card feature"><div class="icon">✦</div><h3>رول بلاي واقعي</h3><p>نظام لعب يركز على التفاعل، بناء الشخصية، والقصص التي يصنعها اللاعبون.</p></article>
+  <article class="card feature"><div class="icon">⌁</div><h3>مجتمع حي</h3><p>فعاليات ووظائف ومسارات متعددة تمنحك سبباً للعودة في كل يوم.</p></article>
+  <article class="card feature"><div class="icon">◆</div><h3>تجربة مميزة</h3><p>واجهة وهوية عصرية مع مساحة قابلة للتوسع وإضافة أنظمتك الخاصة.</p></article></div>
+</section>
+
+<section id="rules" class="section dark">
+ <div class="section-head"><span>02</span><div><p class="eyebrow">RULES</p><h2>القوانين قبل <em>الدخول</em>.</h2></div></div>
+ <div class="rules"><div class="rule"><b>01</b><div><h3>احترم الجميع</h3><p>الاحترام أساس المجتمع. يمنع السب والإساءة والاستفزاز المتعمد.</p></div></div>
+ <div class="rule"><b>02</b><div><h3>التزم بالرول بلاي</h3><p>افصل بين شخصيتك وحياتك الحقيقية ولا تستخدم معلومات خارج اللعبة.</p></div></div>
+ <div class="rule"><b>03</b><div><h3>ممنوع استغلال الثغرات</h3><p>أي خلل أو ثغرة يجب الإبلاغ عنها للإدارة وعدم استغلالها.</p></div></div>
+ <div class="rule"><b>04</b><div><h3>استمع للإدارة</h3><p>قرارات الإدارة وتنظيماتها تهدف لحماية التجربة للجميع.</p></div></div></div>
+</section>
+
+<section id="jobs" class="section">
+ <div class="section-head"><span>03</span><div><p class="eyebrow">APPLICATIONS</p><h2>اختر <em>طريقك</em>.</h2></div></div>
+ <div class="job-grid">
+  <div class="card job"><span>🚓</span><h3>الشرطة</h3><p>حماية المدينة، التحقيق، وتنفيذ القانون.</p><button onclick="apply('الشرطة')">تقديم الآن</button></div>
+  <div class="card job"><span>🚑</span><h3>الإسعاف</h3><p>إنقاذ الأرواح والاستجابة للحالات الطارئة.</p><button onclick="apply('الإسعاف')">تقديم الآن</button></div>
+  <div class="card job"><span>🔧</span><h3>الميكانيكي</h3><p>إصلاح المركبات وخدمة سكان المدينة.</p><button onclick="apply('الميكانيكي')">تقديم الآن</button></div>
+  <div class="card job"><span>💼</span><h3>وظائف مدنية</h3><p>مسارات متعددة لبناء مستقبلك داخل المدينة.</p><button onclick="apply('وظيفة مدنية')">تقديم الآن</button></div>
+ </div>
+</section>
+
+<section id="store" class="section dark">
+ <div class="section-head"><span>04</span><div><p class="eyebrow">STORE</p><h2>متجر <em>Dream Life</em>.</h2></div></div>
+ <div class="store-grid">
+  <div class="card product"><div class="product-top">DL</div><h3>باقة البداية</h3><p>مزايا تجميلية ودعم للبداية.</p><strong>29 <small>ر.س</small></strong><button onclick="buy('باقة البداية')">اختيار</button></div>
+  <div class="card product featured"><div class="tag">الأكثر طلباً</div><div class="product-top">◆</div><h3>باقة VIP</h3><p>مزايا VIP ومزايا إضافية داخل المدينة.</p><strong>59 <small>ر.س</small></strong><button onclick="buy('باقة VIP')">اختيار</button></div>
+  <div class="card product"><div class="product-top">★</div><h3>باقة النخبة</h3><p>حزمة متقدمة للاعبين الداعمين.</p><strong>99 <small>ر.س</small></strong><button onclick="buy('باقة النخبة')">اختيار</button></div>
+ </div>
+</section>
+
+<section id="servers" class="section server-section">
+ <div class="server-box"><div><p class="eyebrow">SERVER STATUS</p><h2>جاهز <em>للعب؟</em></h2><p>ادخل مجتمع Dream Life وابدأ قصتك الآن.</p></div>
+ <div class="status"><span></span><b>ONLINE</b><small>السيرفر متاح</small></div>
+ <a class="btn primary" href="#" onclick="connect(event)">اتصال بالسيرفر</a></div>
+</section>
+</main>
+
+<footer><div class="brand"><span>DL</span> Dream Life <b>CFW</b></div><p>© 2026 Dream Life CFW — جميع الحقوق محفوظة.</p><div><a href="#rules">القوانين</a> · <a href="#jobs">التقديم</a> · <a href="#servers">السيرفر</a></div></footer>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body></html>
